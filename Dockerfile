@@ -5,7 +5,7 @@ ENV PHP_VERSION 5.6.14-r0
 
 RUN /sbin/apk update \
 && /sbin/apk add \
-php-common-${PHP_VERSION} \
+php-common \
 php-mcrypt \
 php-soap \
 php-xmlreader \
