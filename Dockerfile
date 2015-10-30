@@ -17,7 +17,7 @@ php-zip \
 php-dom \
 php-mysqli \
 php-pear \
-php-pdo_mysql\
+php-pdo_mysql \
 php-json \
 php-pdo \
 php-gd \
