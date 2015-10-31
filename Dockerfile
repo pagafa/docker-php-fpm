@@ -27,6 +27,7 @@ php-xml \
 php-xsl \
 php-fpm \
 php-ctype &&\
-rm -rf /var/cache/apk/*
+rm -rf /var/cache/apk/* &&\
+ln -sf /dev/stderr /var/log/php-fpm.log
 
 CMD ["php-fpm", "-F"]
